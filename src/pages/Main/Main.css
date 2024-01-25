@@ -1,0 +1,9 @@
+.header {
+    background-color: bisque;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
