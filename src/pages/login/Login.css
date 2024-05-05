@@ -1,21 +1,77 @@
-body {
+/* body {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    /* width: 100%; */
-}
+} */
 
 .container {
-    border: 1px solid black;
-    min-width: 400px;
-    max-width: 550px;
-    min-height: 250px;
-    max-height: 500px;
+    /* border: 1px solid black; */
+    min-width: 800px;
+    max-width: 1000px;
+    min-height: 700px;
+    max-height: 1000px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 20px;
     gap: 10px;
+}
+
+.primeira-coluna {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    border-right: 1px solid black;
+    background-color: black;
+    color: white;
+    font-size: 32px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.primeira-coluna p {
+    font-size: 26px;
+}
+
+.segunda-coluna {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.segunda-coluna input {
+    padding: 10px;
+    width: 300px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.segunda-coluna button {
+    width: 300px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.segunda-coluna button:hover {
+    background-color: white;
+    color: black;
+}
+
+.segunda-coluna button:active {
+    background-color: black;
+    color: white;
 }
 
 .container-button {

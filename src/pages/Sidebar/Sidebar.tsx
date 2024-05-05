@@ -1,11 +1,9 @@
-import React from "react";
 import "./Sidebar.css";
 import TodoLists from "../../components/TodoLists/TodoLists";
 
 interface MeuComponenteProps {
     // handleTodoListClick: (todoListId: string) => void;
     onTodoListClick: (todoListId: string) => void
-    // Inclua outras props aqui, se houver
 }
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any

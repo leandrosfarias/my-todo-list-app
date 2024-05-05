@@ -1,0 +1,7 @@
+#container-form-add-todo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    height: 150px;
+}
